@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           NewsPicks MyNews Keys
 // @namespace      https://iwamot.com/
-// @version        1.0.0
+// @version        1.0.1
 // @description    NewsPicksのマイニュースが読みやすくなるショートカットキーを提供
 // @icon           https://www.google.com/s2/favicons?domain=newspicks.com
 // @grant          none
@@ -25,6 +25,7 @@
   function focusCell(cell) {
     cell.tabIndex = 0;
     cell.focus();
+    cell.scrollIntoView({behavior: 'instant', block: 'center'});
   }
 
   function findFirstVisibleCell() {
