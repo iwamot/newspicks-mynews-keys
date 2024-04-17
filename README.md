@@ -4,7 +4,7 @@
 ## インストールURL
 https://github.com/iwamot/newspicks-mynews-keys/raw/main/newspicks-mynews-keys.user.js
 
-## ショートカットキー
+## 追加されるショートカットキー
 - `j`: 次のニュースに移動
 - `k`: 前のニュースに移動
 - `.`: 最初のニュースに移動
