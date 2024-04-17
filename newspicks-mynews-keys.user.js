@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           NewsPicks MyNews Keys
 // @namespace      https://iwamot.com/
-// @version        1.0.2
+// @version        1.0.3
 // @description    NewsPicksのマイニュースが読みやすくなるショートカットキーを提供
 // @icon           https://www.google.com/s2/favicons?domain=newspicks.com
 // @grant          none
@@ -75,10 +75,6 @@
     return cell.querySelector('.' + CLICKABLE_CLASS);
   }
 
-  function clickElement(element) {
-    element.click();
-  }
-
   window.addEventListener("keydown", function (e) {
     let activeCell;
     switch (e.key) {
@@ -108,7 +104,7 @@
         if (activeCell) {
           const clickableElement = getClickableElement(activeCell);
           if (clickableElement) {
-            clickElement(clickableElement);
+            clickableElement.click();
           }
         }
         e.preventDefault();
