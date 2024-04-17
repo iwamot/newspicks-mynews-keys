@@ -1,15 +1,16 @@
 // ==UserScript==
-// @name           NewsPicks Timeline Keys
+// @name           NewsPicks MyNews Keys
 // @namespace      https://iwamot.com/
 // @version        1.0.0
-// @description    NewsPicksのタイムラインが読みやすくなるショートカットキーを提供
+// @description    NewsPicksのマイニュースが読みやすくなるショートカットキーを提供
 // @icon           https://www.google.com/s2/favicons?domain=newspicks.com
 // @grant          none
 // @author         Takashi Iwamoto <hello@iwamot.com>
-// @homepage       https://github.com/iwamot/newspicks-timeline-keys
+// @homepage       https://github.com/iwamot/newspicks-mynews-keys
 // @match          https://newspicks.com/timeline/
-// @updateURL      https://github.com/iwamot/newspicks-timeline-keys/raw/main/newspicks-timeline-keys.user.js
-// @downloadURL    https://github.com/iwamot/newspicks-timeline-keys/raw/main/newspicks-timeline-keys.user.js
+// @match          https://newspicks.com/timeline
+// @updateURL      https://github.com/iwamot/newspicks-mynews-keys/raw/main/newspicks-mynews-keys.user.js
+// @downloadURL    https://github.com/iwamot/newspicks-mynews-keys/raw/main/newspicks-mynews-keys.user.js
 // ==/UserScript==
 
 (function () {
