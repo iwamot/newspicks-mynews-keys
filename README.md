@@ -9,3 +9,4 @@ https://github.com/iwamot/newspicks-mynews-keys/raw/main/newspicks-mynews-keys.u
 - `k`: 前のニュースに移動
 - `.`: 最初のニュースに移動
 - `b`: 選択中のニュースを新しいタブで表示
+- `c`: コメントの続きを表示
